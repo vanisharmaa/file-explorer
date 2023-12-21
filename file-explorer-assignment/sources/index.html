@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Explorer Assignment</title>
+  <link rel="shortcut icon" href="../assets/file.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="page.css">
+</head>
+<body class="NotoSans">
+  <article>
+    <button class="NotoSans" onclick="buttonClicked(0)"><i class="fa-solid fa-angle-right arrows-0" ></i>File Explorer</button>
+    <i class="fa-solid fa-file-circle-plus new-icon" onclick="addFile(file_structure, 0)"></i>
+    <i class="fa-solid fa-folder-plus new-icon" onclick="addFolder(file_structure, 0)"></i>
+    <ul id="ul0"></ul>
+  </article>
+  <script src="https://kit.fontawesome.com/1137d2b7af.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

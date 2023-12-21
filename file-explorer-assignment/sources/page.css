@@ -1,0 +1,129 @@
+html{
+  margin:0;
+}
+body{
+  background-color: #1F1F1F;
+  color: #d6d6d6;
+  margin: 0;
+}
+article{
+  background-color: #252525;
+  width:75%;
+  position: relative;
+}
+li{
+  list-style: none;
+  margin: 0.45rem;
+}
+i{
+  color: #b1b1b1;
+  display: inline;
+  padding-right: 0.25rem;
+  margin-right: 0.25rem;
+  font-size: medium;
+}
+
+ul{
+  padding: 0;
+  margin-top: 0;
+}
+.fa-folder-plus{
+  position: absolute;
+  right: 1rem;
+}
+.fa-file-circle-plus{
+  position: absolute;
+  right: 4rem;
+}
+button{
+  background-color: transparent;
+  border-style: none;
+  color: #d6d6d6;
+  font-weight: 700;
+  padding-left: 0;
+  font-size: medium;
+}
+form{
+  display:inline;
+}
+form > input{
+  font-size: medium;
+  margin: 0 0.15rem;
+  border-radius: 0.25rem;
+}
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-5px); }
+  20% { transform: translateX(5px); }
+  30% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  50% { transform: translateX(-5px); }
+  60% { transform: translateX(5px); }
+  70% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  90% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+.redForm{
+  border: 2px solid rgb(240, 0, 0);
+  animation: shake 1.5s ease-in-out infinite;
+}
+
+.fa-html5{
+  color: #F75421;
+}
+.fa-css3-alt{
+  color: #2194F0;
+}
+.fa-square-js{
+  color: #F7D800;
+}
+.fa-folder{
+  color: #aa7c40;
+}
+.hov:hover{
+  background-color: #353535;
+}
+span{
+  display: inline-block;
+  width: 6rem;
+  /* next 3 properties are imp for ellipsis  */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: -11%;
+  text-align: left;
+  /* font-size: medium; */
+}
+.new-icon{
+  padding: 2px;
+  margin: 4px;
+  height: 1rem;
+  width: 1rem;
+  text-align: center;
+  border-radius: 3px;
+}
+.new-icon:hover{
+  background-color: #777;
+}
+.fa-trash{
+  position: absolute;
+  right: 8rem;
+}
+.fa-pencil{
+  position: absolute;
+  right: 12rem;
+}
+
+/* fonts  */
+
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url('../fonts/noto_sans/NotoSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+.NotoSans{
+  font-family: 'NotoSans-Regular', sans-serif;
+}
